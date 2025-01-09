@@ -1,0 +1,26 @@
+# Opensearch creds
+OPENSEARCH_HOST=opensearch
+OPENSEARCH_PORT=9200
+OPENSEARCH_UNAME=admin
+OPENSEARCH_PASSWORD=
+OPENSEARCH_INDEX=logs
+
+# DB creds
+DB_HOST=postgres
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=password
+DB_NAME=postgres
+
+LOG_LEVEL=DEBUG # DEBUG, INFO, ERROR
+
+
+# UIM File column for IP
+UIM_IDENTIFIER_COLUMN=O&M IP
+
+ASSETS_TABLE=assets_table
+UPLOAD_EXCEL_FILE_PATH = D:\PROJECTS\8_Fast_API\fast-api_muttu\fast-api\upload_folder
+
+
+# IP Address and CVE columns in Excel file
+VA_COLUMNS='[["IP Address", "CVE"], ["IP Address/Impacted URL", "CVE ID "], ["Host", "CVE"]]'

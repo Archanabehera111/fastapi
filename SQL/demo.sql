@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS demo (
+    ipaddress VARCHAR(255) UNIQUE NOT NULL,
+    country VARCHAR(255),
+    name VARCHAR(255)
+);
